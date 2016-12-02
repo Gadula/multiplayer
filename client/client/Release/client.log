@@ -1,0 +1,17 @@
+﻿Build started 2/12/2016 4:07:46 AM.
+     1>Project "C:\Users\Jenny Liang\Downloads\Lab04\Lab04\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>client.cpp(40): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jenny Liang\Downloads\Lab04\Lab04\client\Release\client.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jenny Liang\Downloads\Lab04\Lab04\client\Release\client.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jenny Liang\Downloads\Lab04\Lab04\client\Release\client.lib" /MACHINE:X86 /SAFESEH Release\client.obj
+         Generating code
+         Finished generating code
+         client.vcxproj -> C:\Users\Jenny Liang\Downloads\Lab04\Lab04\client\Release\client.exe
+     1>Done Building Project "C:\Users\Jenny Liang\Downloads\Lab04\Lab04\client\client\client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83
